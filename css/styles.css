@@ -59,6 +59,30 @@ margin-right: auto;
    color: hsl(176, 68%, 64%);
    cursor: pointer;
  }
+ .accesstext p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.accesstext h5{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.sectiontext p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.sectiontext h5{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.segment p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.segment h5{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
 
 @media screen and (max-width: 719px){
   .header{
@@ -100,6 +124,8 @@ margin-right: auto;
   }
   .introparagraph{
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   }
   .introlink{
     text-decoration: none;
@@ -111,7 +137,7 @@ margin-right: auto;
    font-size: 12px;
    font-family: 'Raleway', sans-serif;
    font-weight: 400;
-}
+  }
   .about{
     display: flex;
     flex-direction: column;
@@ -161,13 +187,13 @@ margin-right: auto;
     padding: 1em;
     font-family: 'Open Sans', sans-serif;
     background-color: hsl(218, 28%, 13%);
- /*   margin-top: -95px;*/
+  /*   margin-top: -95px;*/
   }
   .btn{
     text-decoration: none;
     color: hsl(176, 68%, 64%);
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;}
+    font-weight: 400;
   }
   .line{
     content: "";
@@ -261,10 +287,14 @@ margin-right: auto;
   }
   .aboutspeaker h6{
     font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
   }
   .aboutspeaker p{
    margin-top: -25px;
    font-size: 10px;
+   font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
   }
   #testimony1, #testimony2{
     margin-bottom: 1em;
@@ -276,6 +306,8 @@ margin-right: auto;
     color: white;
     padding: 1em;
     padding-top: 13em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
   }
   .get{
     text-decoration: none;
@@ -284,6 +316,8 @@ margin-right: auto;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     border-radius: 30px;
     padding: 10px 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
   }
   .footerlinks ul{
     display: flex;
@@ -301,13 +335,14 @@ margin-right: auto;
   cursor: pointer;
   color: hsl(0, 0%, 100%);
   font-family: 'Raleway', sans-serif;
+  font-weight: 400;
     }
-.socials{
+  .socials{
   display: flex;
   justify-content: center;
   align-items: center;
     }
-.socials a{
+  .socials a{
   color: white;
   margin: 5px;
   border: 1px solid white;
@@ -315,6 +350,11 @@ margin-right: auto;
   padding: 5px 7px;
   cursor: pointer;
     }
+  
+
+}
+  
+  
 
 
 @media screen and (min-width: 720px){
@@ -344,13 +384,16 @@ margin-right: auto;
     color: white;
     text-align: center;
     padding: 5em;
-    font-family: 'Open Sans', sans-serif;
   }
   .introheading{
     font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
   }
   .introparagraph{
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   }
   .introlink{
     text-decoration: none;
@@ -399,10 +442,8 @@ margin-right: auto;
     margin-left: 2em;
     text-align: left;
     padding: 1em;
-    font-family: 'Open Sans', sans-serif;
     background-color: hsl(218, 28%, 13%);
- /*   margin-top: -95px;*/
-  }
+   }
   .sectiontext h5{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -411,9 +452,7 @@ margin-right: auto;
     text-decoration: none;
     color: hsl(176, 68%, 64%);
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-}
-    
+    font-weight: 400;  
   }
   .line{
     content: "";
@@ -445,6 +484,8 @@ margin-right: auto;
   }
   .messages{
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   }
   .testimony{
     display: flex;
@@ -475,10 +516,14 @@ margin-right: auto;
   }
   .aboutspeaker h6{
     font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   }
   .aboutspeaker p{
    margin-top: -25px;
    font-size: 10px;
+   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   }
   #testimony2, #testimony3{
     margin-left: 1em;
@@ -510,6 +555,7 @@ margin-right: auto;
   cursor: pointer;
   color: hsl(0, 0%, 100%);
   font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 .socials{
   display: flex;
@@ -537,6 +583,8 @@ margin-right: auto;
   display: flex;
   text-align: left;
   margin-right: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .address img{
   margin-top: 1em;
@@ -566,6 +614,10 @@ margin-right: auto;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
+.accesstext p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
 .accessform{
   display: flex;
   color: white;
@@ -586,6 +638,7 @@ margin-right: auto;
   border-radius: 30px;
   padding: 10px 20px;
 }
+}
 
 
 @media screen and (min-width: 1200px){
@@ -603,12 +656,3 @@ margin-right: auto;
   }
   
 }
-
- /*@media screen and (min-width: 992px){
-  .access{
-    top: 118em;
-  }
-  .testimonies{
-    top: 98em;
-  }
-} */
