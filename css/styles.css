@@ -23,9 +23,6 @@
   margin-left: 10px;
   justify-content: flex-end;
 }
-#thirdlink{ 
-margin-right: auto; 
-}
 
 .navlinks ul li a{
   text-decoration: none;
@@ -45,6 +42,7 @@ margin-right: auto;
   display: flex;
   flex-direction: column;
 }
+
  .introlink:hover{
    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
    opacity: 0.8;
@@ -365,7 +363,7 @@ margin-right: auto;
     align-items: center;
   }
   #firstlink{ 
-    margin-left: 40em; 
+    margin-left: -10em; 
     }
   .intro{
     display: flex;
