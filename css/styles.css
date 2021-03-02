@@ -91,12 +91,12 @@
    /* margin-bottom: 14em;*/
     position: absolute;
     z-index: 999;
-    top: 90em;
+    top: 60em;
   }
 
 }
 
-@media screen and (min-width: 340px){
+@media screen and (min-width: 320px){
   .header{
     display: flex;
     flex-direction: column;
